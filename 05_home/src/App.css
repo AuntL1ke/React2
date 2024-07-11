@@ -1,0 +1,55 @@
+.App{
+    text-align: center;
+}
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+.header{
+    height: 10vh;
+    background-color: lightseagreen;
+    color:white;
+  }
+  nav{
+      padding-top: 20px;
+  }
+  
+  nav a{
+    display: inline-block;
+    padding: 5px;
+    margin-left: 5px;
+  
+    /* margin: 6px; */
+    text-decoration: none;
+    background-color: rgb(3, 59, 78);
+    color: white;
+  
+  
+  }
+  
+  nav a:hover{
+    cursor:pointer;
+    background-color: lightblue;
+  }
+
+  .collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Add some space between images */
+  }
+  
+  .collection img {
+    max-width: 100px; /* Adjust the size of the images */
+    height: auto;
+  }
